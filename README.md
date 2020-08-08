@@ -2,9 +2,9 @@
 
 My current resume.
 
-For a full curriculum vitae see [LinkedIn](https://www.linkedin.com/in/ben-giles-0xdeadbeef)
+[Resume - PDF](https://github.com/benkant/resume/raw/master/ben_giles_resume.pdf)
 
-![Resume - PDF](https://github.com/benkant/resume/raw/master/ben_giles_resume.pdf)
+For a full curriculum vitae see [LinkedIn](https://www.linkedin.com/in/ben-giles-0xdeadbeef)
 
 ### Build using Docker
 
