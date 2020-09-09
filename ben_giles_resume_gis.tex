@@ -71,7 +71,7 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]\vspace{5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -85,57 +85,64 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\Large Benjamin Giles} & Email : \href{mailto:btgiles@gmail.com}{btgiles@gmail.com} \\
   \href{https://github.com/benkant}{https://github.com/benkant} & Mobile : +61-400-732-837 \\
-  \href{https://www.linkedin.com/in/rbp-0xdeadbeef/}{https://www.linkedin.com/in/rbp-0xdeadbeef/}
+  \href{https://www.linkedin.com/in/rbp-0xdeadbeef/}{https://www.linkedin.com/in/rbp-0xdeadbeef/} & Citizenship : Australian \\
 \end{tabular*}
 
 %
 %--------PROGRAMMING SKILLS------------
-\section{Analysis and Development Experience}
+\section{Key Skills}
   \resumeSubHeadingListStart
-    \resumeSubItem{Languages}{Python, JavaScript, SQL, C99, C++11, ASM (x86), Java, MATLAB, Lua, Perl, Bash, PowerShell, .NET.}
-    \resumeSubItem{Tools}{gcc/ld/gdb, make, nasm, coreutils, git, vim, ESRI SDK's, Visual Studio, JetBrains, IDA Pro, x64gdb, WireShark, Linux, IIS/Windows Server}
-    \resumeSubItem{Programming practice}{version control, DevOps, UML, ER-diagrams, CI/CD, pair programming, code review}
-    \resumeSubItem{Leadership}{Mentoring, tasking, reporting, course delivery, hiring, management, agile processes}
-    \resumeSubItem{Applications}{Linux system and network programming, geographic information systems, algorithm development, data analysis, database development}
-  \resumeSubHeadingListEnd
+    \resumeSubItem{Technical}{20 years experience: multi-source geospatial and non-spatial data analysis and software development. Map creation (web-map services, report generation), database design, development and QA.}
+    \resumeSubItem{Production}{20 years: Information task triage, non-technical stakeholder requirements gathering \& technical solution development. 15 years: ESRI (Canberra) certification course delivery, ESRI technical support, technical consulting to non-technical audiences, promotion of geospatial capability, organisation representation at conferences.}
+    \resumeSubItem{Production Familiarity}{Two years: intelligence cycles and tradecraft, intelligence roles, forensic intelligence reporting.}
 
+\section{Technical Skills}
+    \resumeSubItem{GIS Software}{ESRI: ArcGIS Desktop \& Server. GeoServer, GDAL, PostGIS, NetCDF.}
+    \resumeSubItem{GIS \& General Analysis Tools}{ArcPy, ArcMap Toolboxes: Geostatistical, Network, Spatial, Tracking, and custom Python Toolboxes. MATLAB Toolboxes: Statistics and Machine Learning, Computer Vision, Image \& Signal Processing, Mapping), ArcGIS Notebooks, SciPy.}
+    \resumeSubItem{GIS Application Development}{ESRI: REST API, ArcObjects, API for JavaScript, Runtime SDK, FileGDB API. GeoServer, GDAL, PostGIS, NetCDF.}
+    \resumeSubItem{Data Management}{JetBrains DataGrip, Oracle, PostgreSQL, SQL Server, DB/2, ArcGIS Data Reviewer, ArcSDE C API, AWS Redshift.}
+    \resumeSubItem{Languages and Development Tools}{Python, C\#, SQL, JavaScript, C99, C++11, Java, Bash, PowerShell.}
+  \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
 \section{Recent Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Australian Defence Force Academy}{Canberra, Australia}
-      {Master of Cyber Security (Advanced Tradecraft)}{Feb 2020 - current (indefinite leave)}
+      {Professional Development: Master of Cyber Security (Advanced Tradecraft)}{Feb 2020 - current}
         \resumeItemListStart
           \resumeItem
             {Core Coursework}{Reverse engineering / Information Security and Assurance / Wireless, Mobile, and Internet of Things Security / Digital Forensics}
           \resumeItem
-            {Auxiliary Coursework}{Engineering Mathematics}
+            {Auxiliary Coursework}
+              {Engineering Mathematics}
           \resumeItemListEnd
 
     \resumeSubheading
       {FEISAR Pte Ltd}{Singapore}
       {Senior Analysis Programmer}{June 2014 - December 2019}
       \resumeItemListStart
-        \vspace{5pt}
-          {Delivered software consulting and development services to oil \& gas and fintech sectors. \\}
+          {Delivered geospatial analysis in the form of data products, software development services, mostly to the geoscience and fintech sectors. \\}
+            \resumeItem{Player, with GIS-Pax Pty Ltd}
+              {Implemented features in the de facto standard ArcMap tool for geoscientists. Written with ESRI SDK's for Windows Workstations. - IHS, grabbing data creating a data fusion}
+
+            \resumeItem{Player QwikVol, with GIS-Pax Pty Ltd}
+              {Implemented a reusable procedure that validated inputs for units, performing bounds checks. I designed, implemented and formally tested for stability several numerical algorithms, including a Markov Chain Monte Carlo simulation to produce probability distributions of expected oil, gas and condensate in prospects. The result of this is the primary information for a \$100m exploration drilling decision. Designed for portability, it runs on x64 workstations and Apple A-Series ARM CPU's. Technologies used: C, MATLAB, C\#, Mathematica, Math.NET Numerics.}
+
+            \resumeItem{PlayHouse, with GIS-Pax Pty Ltd}
+              {Satellite imagery from web-map services. Lead engineering on a team that developed a geospatial data pipeline that consumed data produced by geoscientists to feed visualisation and decision support systems. These were consumed by oil \& gas exploration economists and senior exploration management. Implemented in Python, C, C\#, Bash scripts, PowerShell, and integrated with ArcGIS Server.}
+
+            \resumeItem{Consulting, with GIS-Pax Pty Ltd}
+              {Instructed and helped geoscientists create databases using data fusion.}
+
+            \resumeItem{Mudi (GL.iNet)}
+              {Black Box wireless device security audit for hardware developers of the Mudi 4G LTE travel wireless router: \href{https://github.com/benkant/rf\_audit}{https://github.com/benkant/rf\_audit}}
+
             \resumeItem{Pin Payments}
               {Developed a machine learning model in MATLAB to predict customer risk during onboarding to reduce fraud loss.}
 
-            \resumeItem{Player, with GIS-Pax Pty Ltd}
-              {Implemented features in the de facto standard data analysis tool for oil \& gas exploration geoscientists. Used on Windows Workstations at supermajors (ExxonMobil, BP, Royal Dutch Shell, Chevron, Total, Conoco Phillips) and the majority of mid-sized firms (Hess, Repsol, Petronas, Equinor, Petrobras). Written with ESRI SDK's for .Net and Python.}
-
-            \resumeItem{Player QwikVol, with GIS-Pax Pty Ltd}
-              {Designed, implemented and formally tested for stability several numerical algorithms, including a Markov Chain Monte Carlo simulation to produce probability distributions of expected oil, gas and condensate in prospects. The result of this is the primary information for a \$100m exploration drilling decision. Designed for portability, it runs on x64 workstations and Apple A-Series ARM CPU's. Technologies used: C, MATLAB, C\#, Mathematica, Math.NET Numerics.}
-
-            \resumeItem{PlayHouse, with GIS-Pax Pty Ltd}
-              {Lead engineering on a team that developed a geospatial data pipeline that consumed data produced by geoscientists to feed visualisation and decision support systems. These were consumed by oil \& gas exploration economists and senior exploration management. Implemented in Python, C, C\#, JavaScript, React, Bash scripts, PowerShell, and integrated with ArcGIS Server / API for JavaScript.}
-
-            \resumeItem{Consulting, with GIS-Pax Pty Ltd}
-              {Conducted technical pre-sales and onsite deployments worldwide, and in the cloud (GCP, Azure and AWS).}
-
-            \resumeItem{Professional development in Mathematics and Machine Learning}
-              {Multivariable Calculus, Linear Algebra, Differential Equations, Vector Calculus, Numerical Methods, Number Theory, Probability, Statistics, Supervised Learning, Unsupervised Learning.}
+            \resumeItem{Professional development in Machine Learning}
+              {Numerical methods, probability, statistics, supervised learning, unsupervised learning, reinforcement learning.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -143,15 +150,16 @@
       {Engineer Manager}{May 2012 - May 2014}
       \resumeItemListStart
         \resumeItem{Core Payment Systems}
-          {Lead software design, architecture, development and infrastructure for international payments, foreign exchange, fraud detection and credit card processing. Written in Ruby, SQL, Bash, Mathematica.}
-        \resumeItem{Financial system integrations}
-          {Managed relationships and technical requirements with upstream financial providers.}
+          {Lead software design, architecture, development, and infrastructure for international payments, foreign exchange, fraud detection and credit card processing. Written in Ruby, SQL, Shell.}
+        \resumeItem{Security}
+          {Performed secure code review, managed external penetration tests, conducted internal clear-box testing.
+          Development of incident response playbook.}
         \resumeItem{Leadership}
           {Hired and managed five technical staff, and several contractors, defining software development processes and best practices.}
         \resumeItem{Acqusition prospect analysis}
           {Performed technical and economic due diligence of acquisitions.}
-        \resumeItem{Dev/test/prod/analysis environment}
-          {Owned DevSecOps automation in AWS, including HA production and high security internal analytics systems.}
+       \resumeItem{Dev/test/prod/analysis environment}
+          {Developed DevSecOps automation pipline in AWS: EC2, ELB, RDS, AMI, S3. Analytics provided with ETL Shells scripts to RedShift. Managed with Capistrano.}
         \resumeItem{Data ETL for analytics}
           {Setup, schema design and management of Amazon Redshift for use by Tableau users in operations and management.}
       \resumeItemListEnd
@@ -176,9 +184,9 @@
       {Geographic Information Systems Programmer}{May 2000 - Jan 2003}
         \resumeItemListStart
           \resumeItem{Consulting at Department of Defence}
-            {Developed spatial data transformation pipeline.}
+            {Developed spatial data transformation pipeline using Java.}
           \resumeItem{ActewAGL}
-            {Developed tool to translate Autodesk CAD models into a spatial database.}
+            {Developed tool to translate Autodesk CAD models into a spatial database, written in C.}
           \resumeItem{Software Development}
             {Designed, developed, and tested workstation \& server-based GIS products for using Sun, SGI, DEC, Microsoft, and GNU C/C++ compilers with ESRI's SDK's.}
           \resumeItem{Geospatial analysis}
@@ -197,8 +205,8 @@
           {Oversaw hiring of 20 technical staff and provisioning of Linux servers, Cisco network infrastructure, and Mac workstations for the expansion to Melbourne. This team ultimately became what is known today as Deloitte Digital.}
         \resumeItem{Multimedia software development}
           {Designed, developed, and tested desktop real-time 2D/3D multimedia software and libraries for macOS and Windows in Java, C++, and OpenGL.}
-        \resumeItem{Web development}
-          {Apache CGI script development on Linux servers using Perl, C, and shell scripts. JavaScript in support of front-end developers.}
+        \resumeItem{Server-side development}
+          {Apache CGI script development on Linux servers using Perl, C, and shell scripts.}
         \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -207,16 +215,10 @@
   \resumeSubHeadingListStart
     \resumeSubItem{Royal Australian Navy}
       {Large volume data processing system deployed on vessels using NetCDF data from other Defence agencies. Pipeline written in Java- embedded system written in Qt/C++}
-    \resumeSubItem{OpenAI}
-      {Contribution of MATLAB client for OpenAI's gym used to measure the performance of deep reinforcement learning agents.}
     \resumeSubItem{RMIT \& Defence Science and Technology Group}
       {Researched mobile ad hoc network protocol performance using simulations sampling from large multi-nation wargame datasets.}
     \resumeSubItem{Victorian Government}
-      {Developed fire models and visualisation used by emergency personel and operations staff.}
-    \resumeSubItem{Diploma of Screenwriting - Film and Television Institute}
-      {Wrote a number of spec scripts, and directed music videos including writing custom VFX software \href{https://github.com/benkant/FXPlug-cloner}{https://github.com/benkant/FXPlug-cloner}.}
-    \resumeSubItem{Spoon Media}
-      {Developed a WYSIWYG website builder written entirely in the browser. Backend development in Drupal, front-end in JavaScript.}
+      {Developed fire models and visualisation used by emergency personnel and operations staff.}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
@@ -224,11 +226,13 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Australian Defence Force Academy @ UNSW Canberra}{Canberra, Australia}
-      {Master of Cyber Security (Advanced Tradecraft)}{Feb. 2020 -- current (indefinite leave)}
+      {Master of Cyber Security (Advanced Tradecraft)}{Feb. 2020 -- Dec. 2022 (Expected)}
     \resumeSubheading
       {Royal Melbourne Institute of Technology}{Melbourne, Australia}
       {Master of Computing in Distributed Systems (Awarded with Distinction);  GPA: 3.9/4}{Mar. 2011 -- Dec. 2014}
   \resumeSubHeadingListEnd
+
+
 
 %-------------------------------------------
 \end{document}
